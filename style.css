@@ -13,6 +13,10 @@ ion-icon {
     color: #bebebe;
 }
 
+.blue {
+    color: #139EF2;
+}
+
 .strong {
     font-weight: bold;
 }
@@ -86,7 +90,7 @@ span {
 }
 
 .conteudo {
-    width: 612px;
+    width: 614px;
     margin-top: calc(54px + 88px);
     display: flex;
     flex-direction: column;
@@ -268,17 +272,30 @@ span {
 .sugestoes .foto_perfil {
     height: 100%;
     width: 32px;
-    background-color: gray;
 }
 
 .sugestoes .info {
     height: 100%;
     width: calc(100% - 32px - 10px);
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info .info_user {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
+}
+
+.info .info_segue {
+    margin: auto 0;
+}
+
+.menu_lateral .direitos {
+    margin: 25px 0;
 }
 
 @media (max-width: 935px) {
