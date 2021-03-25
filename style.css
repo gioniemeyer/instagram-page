@@ -1,0 +1,329 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+ion-icon {
+    color: #000000;
+    width: 20px;
+    ;
+}
+
+.gray {
+    color: #bebebe;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+ins {
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+}
+
+.topo {
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.menu {
+    width: 935px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu div {
+    display: flex;
+    height: 28px;
+}
+
+.menu img {
+    width: 103px;
+}
+
+.linha_vertical {
+    width: 1px;
+    background-color: #dbdbdb;
+    margin: 0 10px 0 10px;
+}
+
+.search {
+    width: 215px;
+    background-color: #FAFAFA;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones ion-icon{
+    margin: 0 5px 0 5px;
+}
+
+.container {
+    width: 935;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    width: 612px;
+    margin-top: calc(54px + 88px);
+    display: flex;
+    flex-direction: column;
+}
+.stories {
+    height: 118px;
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.stories .seta_scroll {
+    position: absolute;
+    top: 46px;
+    right: 10px;
+    color: #bdbeba;
+    border-radius: 50%;
+    z-index: 1;
+    height: 26px;
+    width: 26px;
+}
+
+.story {
+    height: 100%;
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border-radius: 30px; */
+    /* pensar como colocar o fundinho do stories */
+    /* background-image: url("stories_background.jpg"); */
+    font-size: 12px;
+    background-position: 0px 0px;
+}
+
+.story_foto {
+    width: 66px;
+    height: 66px;
+    margin: auto auto;
+    background: url(stories_background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post:first-child {
+    margin-top: 24px;
+}
+
+.post:last-child {
+    margin-bottom: 24px;
+}
+
+.post {
+    width: 100%;
+    margin-top: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.post .topo_post {
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post .user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user img {
+    width: 32px;
+    height: 32px;
+    margin: 15px;
+}
+
+.topo_post ion-icon {
+    margin-right: 15px;
+}
+
+.foto_post {
+    width: 100%;
+    border-radius: 0%;
+}
+
+.post .legenda_post {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icones_post {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icones_post ion-icon {
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+}
+
+.legenda_post .info_post {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.info_post .foto_perfil {
+    width: 20px;
+    height: 20px;
+    margin: auto 5px;
+}
+
+.info_post p {
+    margin: auto 0;
+}
+
+.espaco {
+    width: 28px;
+}
+
+.menu_lateral {
+    width: 293px;
+    margin-top: calc(54px + 88px);
+    font-size: 12px;
+}
+
+.menu_lateral .perfil {
+    height: 60px;
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_lateral .sugestoes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil .foto_perfil {
+    height: 100%;
+    width: 56px;
+    background-color: gray;
+}
+
+.perfil .info {
+    height: 100%;
+    width: calc(100% - 56px - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu_lateral .texto {
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+}
+
+.sugestoes .foto_perfil {
+    height: 100%;
+    width: 32px;
+    background-color: gray;
+}
+
+.sugestoes .info {
+    height: 100%;
+    width: calc(100% - 32px - 10px);
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media (max-width: 935px) {
+    .menu {
+        width: 100%;
+    }
+    .container {
+        justify-content: center;
+    }
+    .espaco {
+        display: none;
+    }
+    .menu_lateral {
+        display: none;
+    }
+}
+
+@media (max-width: 614px) {
+
+    .home .linha_vertical {
+        display: none;
+    }
+
+    .menu .search {
+        display: none;
+    }
+
+    .icones .desktop_icon {
+        display: none;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
+
+    .stories {
+        width: 100%;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+}
