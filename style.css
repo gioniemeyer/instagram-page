@@ -1,5 +1,5 @@
 body {
-    background-color: #E5E5E5;
+    background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -21,10 +21,6 @@ ion-icon {
     font-weight: bold;
 }
 
-ins {
-    text-decoration: none;
-}
-
 span {
     font-weight: bold;
 }
@@ -43,6 +39,7 @@ span {
     top: 0;
     left: 0;
     z-index: 2;
+    border-bottom: solid 1px #dbdbdb
 }
 
 .menu {
@@ -69,8 +66,9 @@ span {
     margin: 0 10px 0 10px;
 }
 
-.search {
+input {
     width: 215px;
+    height: 28px;
     background-color: #FAFAFA;
     border: 1px solid #dbdbdb;
     display: flex;
@@ -120,7 +118,8 @@ span {
     height: 100%;
     margin: auto 10px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 12px;
