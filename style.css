@@ -119,19 +119,15 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* border-radius: 30px; */
-    /* pensar como colocar o fundinho do stories */
-    /* background-image: url("stories_background.jpg"); */
     font-size: 12px;
-    background-position: 0px 0px;
+    /* border-radius: 30px; */
 }
 
 .story_foto {
     width: 66px;
     height: 66px;
     margin: auto auto;
-    background: url(stories_background.jpg);
+    background: url(midias/stories_background.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -181,7 +177,7 @@ span {
     margin-right: 15px;
 }
 
-.foto_post {
+.midia_post {
     width: 100%;
     border-radius: 0%;
 }
