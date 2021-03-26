@@ -21,7 +21,7 @@ ion-icon {
     font-weight: bold;
 }
 
-span {
+.info_post span {
     font-weight: bold;
 }
 
@@ -66,14 +66,18 @@ span {
     margin: 0 10px 0 10px;
 }
 
-input {
+.inpt {
     width: 215px;
     height: 28px;
     background-color: #FAFAFA;
     border: 1px solid #dbdbdb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 1px 77px;
+    box-sizing: border-box;
+
+}
+
+.search img {
+    display: none;
 }
 
 .icones ion-icon{
@@ -94,7 +98,7 @@ input {
     flex-direction: column;
 }
 .stories {
-    height: 118px;
+    height: 110px;
     background-color: #FFFFFF;
     border: 1px solid #dbdbdb;
     display: flex;
@@ -107,7 +111,8 @@ input {
     position: absolute;
     top: 46px;
     right: 10px;
-    color: #bdbeba;
+    color: #fff;
+    background-color: #dbdbdb;
     border-radius: 50%;
     z-index: 1;
     height: 26px;
@@ -116,14 +121,12 @@ input {
 
 .story {
     height: 100%;
-    margin: auto 10px;
+    margin: 0px 10px;
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    /* border-radius: 30px; */
 }
 
 .story_foto {
@@ -318,7 +321,7 @@ input {
         display: none;
     }
 
-    .menu .search {
+    .menu .inpt {
         display: none;
     }
 
@@ -336,6 +339,15 @@ input {
 
     .post {
         width: 100%;
+    }
+
+    .search img {
+        display: block;
+    }
+
+    .home img {
+        display: none;
+    }
     }
 
 }
